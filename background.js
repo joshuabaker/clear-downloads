@@ -1,3 +1,7 @@
 'use strict';
 
-setInterval(chrome.browsingData.removeDownloads.bind(null, {}), 10000);
+chrome.downloads.onChanged.addListener(downloadDelta => {
+  if (downloadDelta.state && downloadDelta.state.current === "complete") {
+    setTimeout(chrome.browsingData.removeDownloads.bind(null, {}), 10000);
+  }
+});
