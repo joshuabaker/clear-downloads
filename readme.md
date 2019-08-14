@@ -1,14 +1,11 @@
-# [<img src="logo.png" alt="Clear Downloads" width="350">][install]
+<p align="center"><img src="logo.svg" width="100" height="100" alt="Postmark icon"></p>
 
-> Chrome extension - Clears the Downloads list every 10 seconds to force the download bar to disappear when all downloads are complete
+<h1 align="center">Clear Downloads for Google Chrome</h1>
 
+Chrome extension that clears Downloads 10 seconds after they’ve finished downloading.
 
-## [Install][install]
-
+## [Install](https://joshuabaker.com/)
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
-
-
-[install]: https://chrome.google.com/webstore/detail/clear-downloads/bknoejjhcfmakcibhifepfkegpjdnadk
+MIT © [Joshua Baker](https://joshuabaker.com/)
