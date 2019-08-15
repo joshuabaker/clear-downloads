@@ -1,8 +1,8 @@
 <p align="center"><img src="logo.svg" width="64" height="48" alt="Postmark icon"></p>
 
-<h1 align="center">Clear Downloads for Google Chrome</h1>
+<h1 align="center">Clear Downloads List</h1>
 
-Chrome extension that clears Downloads 10 seconds after they’ve finished downloading.
+Chrome extension that automatically clears the Downloads list 10 seconds after they’ve finished downloading.
 
 ## [Install](https://joshuabaker.com/)
 
