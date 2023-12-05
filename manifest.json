@@ -1,11 +1,11 @@
 {
 	"author": "Joshua Baker",
 	"name": "Clear Downloads",
-	"version": "1.1.0",
+	"version": "2.0.0",
 	"description": "Clears the Downloads list every 10 seconds to force the download bar to disappear when all downloads are complete",
 	"homepage_url": "https://github.com/joshuabaker/clear-downloads",
-	"manifest_version": 2,
-	"minimum_chrome_version": "66",
+	"manifest_version": 3,
+	"minimum_chrome_version": "88",
 	"permissions": [
 		"browsingData",
 		"downloads"
@@ -14,8 +14,7 @@
 		"128": "icon.png"
 	},
 	"background": {
-		"scripts": [
-			"background.js"
-		]
+		"service_worker": "service_worker.js",
+		"type": "module"
 	}
 }
